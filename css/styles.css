@@ -1,0 +1,64 @@
+@import url(../bower_components/bootstrap/dist/css/bootstrap.min.css);
+/* line 1, ../sass/_main.scss */
+body {
+  text-align: center;
+}
+
+/* line 4, ../sass/_main.scss */
+.logo {
+  text-align: center;
+}
+
+/* line 8, ../sass/_main.scss */
+.cancha {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background: lightgreen;
+  /*
+  background-image: url("../images/cancha.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+}
+
+/* line 20, ../sass/_main.scss */
+.dibujo {
+  width: 30px;
+  height: 30px;
+  background: blue;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 30, ../sass/_main.scss */
+.player1, player2, player3, player4, player5, player6, player7, player8, player9, player10, player11 {
+  text-align: center;
+}
+
+/* line 34, ../sass/_main.scss */
+.textPlayer {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  background: none;
+  border: none;
+  width: 100px;
+  height: 25px;
+  font: Calibri;
+}
+
+/* line 46, ../sass/_main.scss */
+.futbol11 {
+  display: none;
+}
+
+/* line 50, ../sass/_main.scss */
+.bloque {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 0;
+}

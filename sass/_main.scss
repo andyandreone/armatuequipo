@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+}
+.logo{
+  text-align: center;
+}
+
+.cancha{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background: lightgreen;
+  /*
+  background-image: url("../images/cancha.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+}
+
+.dibujo{
+  width: 30px;
+  height: 30px;
+  background: blue;
+  border-radius: 50%;
+  text-align: center;
+  display:inline-block;
+
+
+}
+.player1,player2,player3,player4,player5,player6,player7,player8,player9,player10,player11{
+
+  text-align: center;
+}
+.textPlayer{
+  display: inline-block;
+  text-align: center;
+  color:white;
+  bottom:0;
+  background: none;
+  border: none;
+  width: 100px;
+  height: 25px;
+  font: Calibri;
+
+}
+.futbol11{
+  display:none;
+}
+
+.bloque{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 0;
+
+}
